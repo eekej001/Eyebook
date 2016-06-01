@@ -1,0 +1,624 @@
+.log {
+	margin-left: 800px;
+	margin-top: -8px; 
+	z-index: 100;
+}
+
+.log > div {
+	display: inline-block;
+}
+
+.log1{
+	margin-top: 0px;
+	font-size: 16px;
+} 
+
+.log2 {
+	font-size: 16px;
+} 
+
+h1 {
+	text-align: center;
+	/*background: #003399; */
+	background-image: url("images/background3.jpg"); 
+	color: white;
+	padding-bottom: 10px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.descrip {
+	width: 800px;
+	margin-left: 250px;
+	font-size: 18px;
+}
+
+.reg {
+	 text-align:right;
+	 margin-top:-55px;
+	 margin-right: 10px;
+	 font-size: 16px;
+}
+
+div.thumbs > a {
+   color: white;
+}
+
+.eye {
+	margin-top: -75px;
+	/*z-index: 200; */ 
+}
+
+.eye2 {
+	margin-top: -8px;
+	/*z-index: 200; */ 
+}
+
+div.reg > a {
+	color: white;
+}
+
+.thumbs {
+	width: 90px;
+	height: 480px;
+	background-image: url("images/background3.jpg"); 
+	/*background: #003399; */
+	margin-top: -100px;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+div.thumbs > a > img {
+	width: 70px;
+	margin-bottom: 10px;
+}
+
+div.thumbs > a > img:hover {
+	background:rgba(0,0,0,0.5); 
+}
+
+.thumbs2 {
+	width: 90px;
+	height: 480px;
+	background: #003399;
+    margin-top: -80px; 
+	padding-left: 15px;
+	padding-top: 10px;
+	/*position: absolute; */
+}
+
+div.thumbs2 > a > img {
+	width: 70px;
+	margin-bottom: 10px;
+}
+
+div.thumbs2 > a > img:hover {
+	background:rgba(0,0,0,0.5); 
+}
+
+body {
+	background-image: url("images/background.jpg"); 
+}
+
+.body2 {
+	margin-top: 10px; 
+	margin-left: 350px;
+	width: 700px;
+	border: 1px solid black;
+	background-image: url("images/background3.jpg");
+	border-radius: 20px;
+}
+
+.body3{
+	margin-left: 530px;
+	margin-top: -22px;
+}
+
+.head3{
+	margin-top: -8px;
+}
+
+.footer {
+	background-image: url("images/background3.jpg");
+	font-size: 18px;
+	height: 80px;
+	padding-left: 550px;
+	margin-top: 140px;
+	padding-bottom: 0px;
+	margin-bottom: -8px;
+}
+
+div.footer > a {
+	display: inline;
+	color: white;
+	padding-right: 10px;
+}
+
+.footer2 {
+	background-image: url("images/background3.jpg");
+	font-size: 18px;
+	height: 80px;
+	padding-left: 550px;
+	/*margin-top: 440px;*/
+	margin-top: 50px;
+	padding-bottom: 0px;
+	margin-bottom: -8px;
+	/*position: relative; */
+}
+
+.footer3 {
+	background-image: url("images/background3.jpg");
+	font-size: 18px;
+	height: 80px;
+	padding-left: 550px;
+	/*margin-top: 440px;*/
+	margin-top: 203px;
+	padding-bottom: 0px;
+	margin-bottom: -8px;
+	/*position: relative; */
+}
+
+div.footer2 > a {
+	display: inline;
+	color: white;
+	padding-right: 10px;
+}
+
+div.footer3 > a {
+	display: inline;
+	color: white;
+	padding-right: 10px;
+}
+
+.subhead3 {
+	margin-left: 530px;
+}
+
+
+.icons {
+	margin-left: 300px;
+	margin-top: -350px;
+}
+
+div.icons > dl {
+	display: inline-block;
+	padding-right: 20px;
+	vertical-align: top;
+}
+
+dt {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 40px;
+}
+
+.logO {
+	font-size: 17px;
+	text-align: right;
+	margin-top: -35px;
+	margin-right: 10px;
+}
+
+div.logO > a {
+	color: white;
+}
+
+.beyes{
+	position: relative;
+	margin-top: -20px;
+	margin-left: -8px;
+	border: 2px solid black;
+	width: 1345px;
+	/*overflow: hidden; */
+}
+div.theEyes > img {
+	width: 1345px;
+	height: 300px;
+}
+
+.arrowL {
+	position: absolute;
+	height: 300px;
+	width: 675px;
+	top: 0;
+	opacity: 0;
+}
+
+div.arrowL > img {
+	margin-top: 130px;
+}
+
+div.arrowL:hover {
+	opacity: 1;
+}
+
+.arrowR {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 300px;
+	width: 675px;
+	margin-right: -8px;
+	opacity: 0;
+}
+
+div.arrowR > img {
+	margin-top: 130px;
+	margin-left: 585px;
+}
+
+div.arrowR:hover {
+	opacity: 1;
+}
+
+.arrowLimg:hover {
+	cursor: pointer;
+}
+
+.arrowRimg:hover {
+	cursor: pointer;
+}
+
+.likeI {
+	width: 40px;
+	margin-left: 100px;
+	margin-top: -55px;
+}
+
+form > img {
+	width: 40px;
+	margin-left: 100px;
+	margin-top: -55px;
+}
+
+form > img:hover {
+	background:rgba(0,0,0,0.5);
+}
+
+.likeD {
+	margin-left: 450px;
+}
+
+img.likeI:hover {
+	background:rgba(0,0,0,0.5); 
+}
+
+.likeHow {
+	margin-top: -5px;
+}
+
+.userList {
+	margin-bottom: 30px;
+}
+
+.loggedGr {
+	text-align:right;
+	font-size: 17px;
+	margin-right: 5px;
+	margin-top: -8px;
+}
+
+.loggedReg {
+	margin-top: 28px;
+}
+
+.memPl {
+	margin-right: 1185px; 
+	/*margin-right: 80px; */
+}	
+
+.mainPl {
+	
+	margin-right: 1240px; 
+}
+
+.regPage {
+	background:rgba(0,0,0,0.5);
+	margin-top: -8px;
+}
+
+.demo {
+	width:550px; 
+	height: 350px;
+	position: absolute; 
+	z-index: 100;
+	right: 420px;
+}
+
+.iSamp, .vSamp, .cSamp, .likeImg, .editI, .deleteI, .sublikeI, .reply:hover {
+	cursor: pointer;
+}
+
+.demoBack {
+	background:black;
+	opacity: 0.5; 
+	height: 1060px;
+	width: 4000px;
+	position: absolute; 
+	z-index: 0;
+	margin-top: -63px;
+}
+
+.commentBox {
+	margin: auto;
+	margin-top: -340px; 
+	width: 300px; 
+}
+
+.commentWindow {
+	margin-top: 10px;
+	width: 300px;
+	/*height: 100px; */
+	padding-bottom: 100px;
+	/*line-height: normal; */
+}
+
+.commentBack{
+	/*position: relative;*/
+	background-image: url("images/background2.jpg");
+	padding-bottom: 20px;
+	border: 1px solid black;
+	/*height: auto; */
+	/*height: 300px; */
+	/*overflow: scroll; */
+}
+
+.commentSpecific{
+	background: #003399;
+	border: 1px solid black;
+	/*padding-top: 0px; */
+}
+
+.commentTime{
+	margin-top: -18px;
+	margin-left: 160px;
+}
+
+.commentUname{
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.commentText{
+	margin-left: 10px;
+}
+
+.commentSpecificContent{
+	margin-top: -10px;
+	margin-bottom: -15px;
+}
+
+.commentHeader{
+	text-align: center;
+	text-decoration: underline;
+	margin-top: -3px;
+}
+
+.pButton {
+	margin-top: -0.5px;
+}
+
+.pushFooter{
+
+}
+
+.pushFooter2{
+
+}
+
+html {
+	/*height: 100%; */
+}
+
+*{
+	/*margin: 0;
+	padding: 0; */
+}
+
+.delete {
+	padding-bottom: 0;
+}
+
+.deleteI {
+	width: 12px;
+	margin-top: -12px;
+	margin-left: 280px; 
+}
+
+
+
+.editI {
+	width: 12px;
+	margin-top: -13px;
+	margin-left: 250px; 
+}
+
+.subLikeI {
+	width: 14px;
+	margin-top: 20px; 
+	margin-bottom: -80px;
+	margin-left: 190px;
+}
+
+.subLikeCount {
+	width: 1px;
+	margin-left: 175px; 
+	margin-top: 3px;
+	margin-bottom: -3px;
+}
+
+.subLikeCountHidden {
+	opacity: 0; 
+	width: 1px;
+	margin-left: 175px; 
+	margin-top: 3px;
+	margin-bottom: -3px;
+}
+
+.editI:hover {
+	cursor: pointer;
+}	
+
+.cancelEdit:visited{
+	color: #003399;
+}
+
+.editGr {
+	font-size: 17px;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: -45px;
+}
+
+.editLinks {
+	margin-top: -20px;
+}
+.editHome {
+	font-size: 17px;
+}
+
+.editLogOut {
+	font-size: 17px;
+	margin-left: 1240px; 
+}
+
+.editHome, .editLogOut, .regHomePage, .regCompleteReturn:visited{
+	color: white;
+}
+
+.regCompleteReturn {
+	color: white;
+}
+
+.head3T{
+	padding-top: 10px; 
+}
+
+.bottomPort {
+	margin-top: -25px;
+}
+
+.grow {
+	font-size: 30px;
+	background: red;
+	text-decoration: underline;
+}
+
+.error, .error2, .error3, .error4, .error5 {
+	color: red;
+	font-size: 15px;
+}
+
+p.error2 {
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -139px;
+}
+
+p.error3 {
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -112px;
+}
+
+p.error4 {
+	position: absolute;
+	margin-top: -21px;
+}
+
+p.error5 {
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 75px;
+}
+
+.regHomePage {
+	position:absolute;
+	margin-top: -50px;
+	/*margin-left: -700px; */
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+.regCongrats {
+	color: blue;
+}
+
+.hiddenUserList {
+	background: grey;
+	width: 150px;
+	position:absolute;
+	margin-left: 140px;
+	margin-top: 10px;
+	opacity: 0;
+	/*visibility: hidden; */
+}
+
+/*.hiddenUserList:hover {
+	visibility: visible;
+} */
+
+
+.hiddenUserListReveal {
+	background: grey;
+	width: 150px;
+	position:absolute;
+	margin-left: 140px;
+	margin-top: 10px;
+	opacity: 0.8;
+}
+
+.editForm, .editActive {
+	margin: 0;
+}
+
+.editPartial {
+	height: 120px;
+}
+
+.editPartialBox {
+	background: grey;
+	margin-left: 5px;
+	border: none;
+}
+
+.editPartialButtons {
+	margin-left: 5px;
+}
+
+.reply {
+	color: grey;
+	height: 1px;
+	position:relative;
+	top: -32px;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+.replyPartialBox {
+	background: white;
+	margin-left: 5px;
+	border: none;
+	height: 70px;
+	width: 260px;
+	padding-bottom: 50px;
+}
+
+.replyForm, .replyActive {
+	margin: 0;
+}
+
+.commentReplyActiveDiv {
+	border-top: 2px solid black;
+	border-bottom: none;
+}
+
+.repliesList {
+	position: relative;
+	top: -8px;
+	left: 20px;
+	background: blue;
+	opacity: 0.7;
+}
