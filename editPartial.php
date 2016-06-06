@@ -25,7 +25,7 @@
 				<button type='Button' class='editCancel'>Cancel</button>
 			</p>
 		</form>
-	<div>
+	</div>
 
 
 </html>

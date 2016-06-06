@@ -17,7 +17,7 @@ mysql_select_db("phplogin") or die("Couldn't find database");
   
 <title>Eyebook</title>
 <h1>Eyebook </h1> 
-	<a href='maingpage.php' class='regHomePage'>Home</a>
+	<a href='mainpage.php' class='regHomePage'>Home</a>
 <h3>Register<h3>
 <div class='registerSection'> 
 <form class='registerForm' action='registerAdd.php'  method='POST'>

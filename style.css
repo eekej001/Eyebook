@@ -272,10 +272,6 @@ form > img {
 	margin-top: -55px;
 }
 
-form > img:hover {
-	background:rgba(0,0,0,0.5);
-}
-
 .likeD {
 	margin-left: 450px;
 }
@@ -395,6 +391,17 @@ img.likeI:hover {
 	margin-top: -3px;
 }
 
+
+.replyTime{
+	margin-top: -18px;
+	margin-left: 140px;
+}
+
+.replyText{
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
 .pButton {
 	margin-top: -0.5px;
 }
@@ -422,7 +429,7 @@ html {
 
 .deleteI {
 	width: 12px;
-	margin-top: -12px;
+	margin-top: -13px;
 	margin-left: 280px; 
 }
 
@@ -430,16 +437,17 @@ html {
 
 .editI {
 	width: 12px;
-	margin-top: -13px;
+	margin-top: -14px;
 	margin-left: 250px; 
 }
 
 .subLikeI {
 	width: 14px;
-	margin-top: 20px; 
+	margin-top: 19px; 
 	margin-bottom: -80px;
 	margin-left: 190px;
 }
+
 
 .subLikeCount {
 	width: 1px;
@@ -456,7 +464,43 @@ html {
 	margin-bottom: -3px;
 }
 
-.editI:hover {
+.replyLikeI {
+	width: 14px;
+	margin-top: 10px; 
+	margin-bottom: -80px;
+	margin-left: 180px;
+}
+
+.replyLikeCount {
+	width: 1px;
+	margin-left: 165px; 
+	margin-top: -9px;
+	margin-bottom: 7px; 
+}
+
+.replyLikeCountHidden {
+	opacity: 0; 
+	width: 1px;
+	margin-left: 175px; 
+	margin-top: 3px;
+	margin-bottom: -3px;
+}
+
+
+.replyEditI {
+	width: 12px;
+	margin-top: -23px;
+	margin-left: 230px; 
+}
+
+
+.replyDeleteI {
+	width: 12px;
+	margin-top: -23px; 
+	margin-left: 260px; 
+}
+
+.editI, .replyLikeI, .replyEditI, .replyDeleteI:hover {
 	cursor: pointer;
 }	
 
@@ -553,12 +597,8 @@ p.error5 {
 	margin-left: 140px;
 	margin-top: 10px;
 	opacity: 0;
-	/*visibility: hidden; */
 }
 
-/*.hiddenUserList:hover {
-	visibility: visible;
-} */
 
 
 .hiddenUserListReveal {
@@ -566,16 +606,44 @@ p.error5 {
 	width: 150px;
 	position:absolute;
 	margin-left: 140px;
-	margin-top: 10px;
+	margin-top: -105px;
 	opacity: 0.8;
 }
 
-.editForm, .editActive {
+
+.replyHiddenUserList {
+	background: grey;
+	width: 150px;
+	position:absolute;
+	margin-left: 140px;
+	margin-top: 10px;
+	opacity: 0;
+}
+
+
+
+.replyHiddenUserListReveal {
+	background: grey;
+	width: 150px;
+	position:absolute;
+	margin-left: 140px;
+	margin-top: -105px;
+	opacity: 0.8;
+}
+
+.editForm, .editActive, .replyEditForm, .replyFormEditActive, .replyDeleteForm {
 	margin: 0;
 }
 
 .editPartial {
 	height: 120px;
+}
+
+.replyEditPartial {
+	/*height: 120px; */
+	border: 1px solid black;
+	margin-left: 20px; 
+	background: #003399;
 }
 
 .editPartialBox {
@@ -619,6 +687,27 @@ p.error5 {
 	position: relative;
 	top: -8px;
 	left: 20px;
-	background: blue;
-	opacity: 0.7;
+	/*background: #003399; */ 
+	width: 218px; 
+	
+}
+
+.repliesTime {
+	position: absolute;
+	/*top: -10px; */
+	/*left: 20px;*/
+	margin-top: -197px;
+	margin-left: 167px;
+}
+
+.replyDiv {
+	border: 1px solid black;
+	position: relative;
+	left: 20px;
+	width: 277px;
+	background: #003399;
+}
+
+.upArrow {
+	width: 12px;
 }

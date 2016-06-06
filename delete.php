@@ -13,6 +13,21 @@
 					DELETE FROM comments
 						WHERE comments.id = $id		
 						");
+						
+				mysql_query("
+					DELETE FROM replies
+						WHERE replies.originalCommentId = $id		
+						");
+				
+				mysql_query("
+					DELETE FROM comment_likes
+						WHERE comment_likes.commentId = $id		
+						");
+				
+				mysql_query("
+					DELETE FROM reply_likes
+						WHERE reply_likes.originalCommentId = $id		
+						");
 
 			}
 	}
